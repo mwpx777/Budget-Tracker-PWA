@@ -60,7 +60,7 @@ This progressive web application can be utilized by someone who would like to tr
 
 
 ## **Technology**
-Javascript, Node.js, MongoDB, Mongoose
+Javascript, Node.js, MongoDB, Mongoose, Service Worker and IndexedDB
 
 
 
