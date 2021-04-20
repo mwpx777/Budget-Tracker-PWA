@@ -10,11 +10,7 @@
       "sizes": "384x384",
       "type": "image/png"
     },
-    {
-      "src": "/icons/icon_256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
+  
     {
       "src": "/icons/icon_192x192.png",
       "sizes": "192x192",
