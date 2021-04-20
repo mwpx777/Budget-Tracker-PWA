@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server"
-   
+    // "webpack": "webpack --watch",
+    // "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,9 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0"
-
+    // "html-webpack-plugin": "^5.3.1",
+    // "webpack": "^5.34.0",
+    // "webpack-bundle-analyzer": "^4.4.1",
+    // "webpack-cli": "^4.6.0"
   }
 }
