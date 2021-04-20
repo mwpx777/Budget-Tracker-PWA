@@ -36,7 +36,7 @@ https://dashboard.heroku.com/apps/mwpbudget-tracker-pwa
 
 
 ## **Screenshot**
-![screenshot](screenshot.PNG)
+![screenshot](screenshot.png)
 
 
 
