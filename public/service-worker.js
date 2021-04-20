@@ -1,11 +1,11 @@
 // service worker will cache the app data for offline use
 
-const APP_PREFIX = 'BudgetTracker-';
-const VERSION = 'version_01';
-const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
     "./index.html",
 ]
+const APP_PREFIX = 'BudgetTracker-';
+const VERSION = 'version_01';
+const CACHE_NAME = APP_PREFIX + VERSION;
 
 self.addEventListener('install', function(e){
     e.waitUntil(
@@ -47,7 +47,7 @@ self.addEventListener('fetch', function(e){
                 console.log('responding with cache: ' + e.request.url);
                 return request;
             } else {
-                console.log('file is not cached, fetching: ' = e.request.url);
+                console.log('file is not cached, fetching: ' + e.request.url);
                 return (e.request)
             }
         })
