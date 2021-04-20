@@ -1,3 +1,5 @@
+// indexedDB will store data in browser when offline and POST to server when there is internet connection
+
 // create variable to hold db connection
 let db;
 
@@ -5,7 +7,7 @@ let db;
 // this will create a db called 'budget-tracker' if it doesn't exist
 const request = indexedDB.open('budget-tracker', 1);
 
-// this request will emit if the database version changes
+// this request will only emit if the database version changes
 request.onupgradeneeded = function(event){
     // save reference to database
     const db = event.target.result;
@@ -41,7 +43,7 @@ function saveRecord(record){
     
 }
 
-// this function will run when internet connection is restored to push data to server
+// this function will run when internet connection is restored to POST data to server
 function uploadBudget(){
     // open a transaction on your db
     const transaction = db.transaction(['new-budget'], 'readwrite');
