@@ -29,7 +29,7 @@ request.onerror = function(event){
     console.log(event.target.errorCode);
 };
 
-// this function will run if no internet connection  WHAT TRIGGERS THIS FUNCTION????
+// this function will run if no internet connection  
 function saveRecord(record){
     // open a new transaction with the db with read and write permissions
     // transaction is temp connection to the database
