@@ -35,7 +35,7 @@ Heroku
 https://dashboard.heroku.com/apps/mwpbudget-tracker-pwa
 
 Deployed Application
-https://mwpbudget-tracker-pwa.herokuapp.com/
+https://obscure-harbor-80636.herokuapp.com/
 
 
 ## **Screenshot**
