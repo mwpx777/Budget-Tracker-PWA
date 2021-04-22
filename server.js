@@ -21,7 +21,7 @@ app.use(express.static("public"));
 //   useFindAndModify: false,
 //   useUnifiedTopology: true
 // });
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget', {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
